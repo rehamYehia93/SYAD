@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  /* For RTL specifically */
+  [dir="rtl"] body {
+    position: relative;
+    right: 0;
+  }
+  @media (max-width: 768px) {
+    [dir="rtl"] {
+      padding-right: 0 !important;
+    }
+  
+    [dir="rtl"] .MuiContainer-root {
+      padding-right: 16px !important;
+      padding-left: 16px !important;
+    }
+  }

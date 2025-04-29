@@ -1,0 +1,79 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "evidence": "Evidence",
+    "logout": "Log Out",
+    "about":"About",
+    "services":"Services",
+    "open_sources":"Open sources",
+    "gallery":"Gallery",
+    "menu":"Menu",
+    "apps":"Apps",
+    "notifications":"Notifications"
+  },
+  "languages": {
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover the World of Plants",
+      "subtitle": "Explore our extensive collection of plants and evidence"
+    },
+    "features": {
+      "title": "Our Features",
+      "feature1": {
+        "title": "Diverse Plant Collection",
+        "description": "Access our extensive database of plants from around the world"
+      },
+      "feature2": {
+        "title": "Detailed Information",
+        "description": "Get comprehensive details about each plant species"
+      },
+      "feature3": {
+        "title": "Evidence-Based Approach",
+        "description": "All information backed by scientific research and evidence"
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "description": "We are dedicated to providing accurate and comprehensive information about plants from around the world. Our team of experts works tirelessly to ensure that all information is scientifically accurate and up-to-date."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit"
+    }
+  },
+  "plants": {
+    "title": "Our Plant Collection",
+    "searchPlaceholder": "Search plants..."
+  },
+  "plantDetails": {
+    "characteristics": "Characteristics",
+    "habitat": "Habitat",
+    "uses": "Uses",
+    "gallery": "Gallery"
+  },
+  "evidence": {
+   "evidences": "Evidences",
+    "references": "References"
+  },
+  "footer": {
+    "contact": "Contact",
+    "footer_caption":"Thriving and sustainable wildlife, biodiversity, and terrestrial and marine ecosystems.",
+    "important_links":"Important Links",
+    "national_center":"National Center for Wildlife Development",
+    "geospatial_portal":"Geospatial Portal",
+    "vision":"Vision",
+    "contact_us":"Contact Us",
+    "social_media":"Social Media Accounts",
+    "rights": "All rights reserved to the National Center for Wildlife Development © %{year}",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+
+  }
+}
