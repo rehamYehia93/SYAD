@@ -1,30 +1,29 @@
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Box, Typography} from '@mui/material';
+import { Box} from '@mui/material';
 import { styled } from '@mui/material/styles';
+import Hero from '../components/Hero';
+import { kpis ,adds, services, statistics} from '../data/home';
+import Advertisement  from '../components/Advertisement';
+import Services from '../components/Services';
+import Statistics from '../components/Statistics';
+import Explore from '../components/Explore';
+import Apps from '../components/Apps';
 
 // Hero section image
-const StyledBox = styled(Box)(({ theme }) => ({
-  height: '2000px',
-  '& .test' :{
-    height: '600px',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundColor:'black',
-  }
-}));
 
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <StyledBox>
-      <Box className="test"></Box>
-          <Typography variant="h2" component="h1" gutterBottom>
-            {t('home.hero.title')}
-          </Typography>
-    </StyledBox>
+    <Box>
+      <Hero data ={kpis} />
+      <Advertisement adds= {adds}/>
+      <Services services={services} />
+      <Statistics statistics={statistics} />
+      <Explore />
+      <Apps />
+    </Box>
   );
 };
 

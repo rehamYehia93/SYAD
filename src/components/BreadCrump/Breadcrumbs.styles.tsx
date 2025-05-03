@@ -1,6 +1,5 @@
 import { styled } from '@mui/material/styles';
 import { Box } from '@mui/material';
-import { text } from 'stream/consumers';
 
 const StyledBox = styled(Box)(({ theme }) => ({
     padding: theme.spacing(2, 0),

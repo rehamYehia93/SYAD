@@ -39,5 +39,10 @@ color: theme.palette.secondary.light,
 '& .MuiGrid-item':{
     padding: theme.spacing(2, 0),
 },
+'&.LeftFooter':{
+    '& .FLinksGroupTitle': {
+    borderImage: `linear-gradient(to left, ${theme.palette.common.white}, ${theme.palette.primary.main}) 1`,
+    },
+},
 }));
 export default StyledBox;

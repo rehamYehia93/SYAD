@@ -35,5 +35,11 @@ const StyledBox = styled(Box)(({ theme }) => ({
       transform: 'scale(1.02)', // Slight zoom
       filter: 'brightness(0.95)', // Slightly darken for depth
     },
+    '& .ERefrances':{
+      display:'flex',
+      alignItems:'center',
+      gap: theme.spacing(1),
+      marginBottom: theme.spacing(2),
+    },
   }));
   export default StyledBox;

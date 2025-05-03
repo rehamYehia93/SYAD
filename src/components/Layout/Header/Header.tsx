@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useLanguage } from '../../../context/LanguageContext';
@@ -57,8 +57,7 @@ const Header = () => {
     return location.pathname === path;
   };
    // to check Home page 
-  const isHomePage = location.pathname === '/';
-
+  const isHomePage = useMemo(() => location.pathname === '/', [location.pathname]); 
 
   const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
     if (

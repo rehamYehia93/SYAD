@@ -14,7 +14,7 @@ import {
 import StyledBox from './Evidence.styles';
 import Breadcrumbs from '../../components/BreadCrump';
 import { Link } from 'react-router-dom';
-
+import PublicIcon from '@mui/icons-material/Public';
 
 
 interface TabPanelProps {
@@ -77,7 +77,7 @@ const Evidence = () => {
                         <img src={evidence.image} alt={evidence.title.en} className="EImage" />
                       </Box>
                     <Typography component="p" variant="body1">
-                    {language === 'en' ?evidence.title.en: evidence.title.ar}
+                    {evidence.title[language]}
                     </Typography>
                     </Box>
                    </Grid> 
@@ -89,9 +89,13 @@ const Evidence = () => {
               <CustomTabPanel value={value} index={1}>
               <Box>
                 {references.map((reference)=>(
-                    <Typography key={reference.id}>
-                    {language === 'en' ?reference.text.en: reference.text.ar}
+                  <Box className="ERefrances">
+                       <PublicIcon color="primary" /> 
+                       <Typography key={reference.id}>
+                       {reference.text[language]}
                     </Typography>
+                  </Box>
+                  
                 ))}
                 </Box>
               </CustomTabPanel>

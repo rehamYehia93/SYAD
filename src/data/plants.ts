@@ -45,9 +45,9 @@ export const plants: Plant[] = [
       link:'www.google.com',
     },
     images: [
-      "public/images/6.jpg",
-      "public/images/4.jpg",
-      "public/images/2.jpg",
+      "/public/images/1.jpg",
+      "/public/images/4.jpg",
+      "/public/images/2.jpg",
    ],
   },
   {
@@ -72,9 +72,9 @@ export const plants: Plant[] = [
       link:'www.google.com',
     },
     images: [
-      "public/images/6.jpg",
-      "public/images/4.jpg",
-      "public/images/2.jpg",
+      "/public/images/1.jpg",
+      "/public/images/2.jpg",
+      "/public/images/3.jpg",
    ],
   },
   {
@@ -99,9 +99,9 @@ export const plants: Plant[] = [
       link:'www.google.com',
     },
     images: [
-      "public/images/6.jpg",
-      "public/images/4.jpg",
-      "public/images/2.jpg",
+      "/public/images/6.jpg",
+      "/public/images/4.jpg",
+      "/public/images/2.jpg",
    ],
   },
   {
@@ -126,9 +126,9 @@ export const plants: Plant[] = [
       link:'www.google.com',
     },
     images: [
-      "public/images/6.jpg",
-      "public/images/4.jpg",
-      "public/images/2.jpg",
+      "/public/images/6.jpg",
+      "/public/images/4.jpg",
+      "/public/images/2.jpg",
    ],
   },
   {
@@ -153,9 +153,9 @@ export const plants: Plant[] = [
       link:'www.google.com',
     },
     images: [
-      "public/images/6.jpg",
-      "public/images/4.jpg",
-      "public/images/2.jpg",
+      "/public/images/6.jpg",
+      "/public/images/4.jpg",
+      "/public/images/2.jpg",
    ],
   },
   {
@@ -180,9 +180,9 @@ export const plants: Plant[] = [
       link:'www.google.com',
     },
     images: [
-      "public/images/6.jpg",
-      "public/images/4.jpg",
-      "public/images/2.jpg",
+      "/public/images/6.jpg",
+      "/public/images/4.jpg",
+      "/public/images/2.jpg",
    ],
   },
  

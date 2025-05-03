@@ -4,7 +4,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import Plants from "./pages/Plants/Plants";
-import PlantDetails from "./pages/PlantDetails";
+import PlantDetails from "./pages/PlantDetails/PlantDetails";
 import Evidence from "./pages/Evidence/Evidence";
 import NotFound from "./pages/NotFound";
 import "./i18n/i18n"; 

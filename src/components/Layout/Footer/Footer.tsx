@@ -9,10 +9,13 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import { useLanguage } from '../../../context/LanguageContext';
 
 const Footer = () => {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
+    const { language } = useLanguage();
+  const isRTL = language === 'ar';
  const socialMediaLinks = [
   { id:1,
   icon: <YouTubeIcon />,
@@ -37,7 +40,7 @@ const Footer = () => {
 ];
 
   return (
-    <StyledBox component="footer">
+    <StyledBox component="footer" className={isRTL? '':'LeftFooter'}>
       <Container maxWidth="xl">
         <Grid container>
           <Grid item xs={12} md={6} lg={3} xl={2.4}>

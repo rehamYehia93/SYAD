@@ -18,45 +18,37 @@
   },
   "home": {
     "hero": {
-      "title": "Discover the World of Plants",
-      "subtitle": "Explore our extensive collection of plants and evidence"
+      "marin_kingdom": "From the area of ​​the marine kingdom",
+      "wild_kingdom": "From the area of ​​the wild kingdom"
     },
-    "features": {
-      "title": "Our Features",
-      "feature1": {
-        "title": "Diverse Plant Collection",
-        "description": "Access our extensive database of plants from around the world"
-      },
-      "feature2": {
-        "title": "Detailed Information",
-        "description": "Get comprehensive details about each plant species"
-      },
-      "feature3": {
-        "title": "Evidence-Based Approach",
-        "description": "All information backed by scientific research and evidence"
-      }
-    },
-    "about": {
-      "title": "About Us",
-      "description": "We are dedicated to providing accurate and comprehensive information about plants from around the world. Our team of experts works tirelessly to ensure that all information is scientifically accurate and up-to-date."
-    },
-    "contact": {
-      "title": "Contact Us",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Submit"
-    }
+    "services":{
+      "title":"Geospatial Portal Services",
+      "button_text":"See All Services"
+     },
+     "statistics":{
+      "title":"The portal in numbers"
+     },
+     "explore":{
+      "title":"Explore the Kingdom's reserves",
+      "desc":"The Geo Explorer allows users to browse and inquire about biodiversity data and protected areas in the Kingdom. The Explorer also includes a set of geographic analytical tools, allowing users to print results and maps according to selected templates and their various dimensions."
+     },
+     "apps":{
+      "title":"Fungal Observer App",
+      "desc":"An application that works on smart devices to monitor and collect data on biodiversity and important environmental sites, and record the field paths of researchers and interested parties."
+     }
   },
   "plants": {
     "title": "Our Plant Collection",
-    "searchPlaceholder": "Search plants..."
+    "search_placeholder": "Search plants...",
+    "not_found":"No plants found matching your search."
   },
   "plantDetails": {
     "characteristics": "Characteristics",
     "habitat": "Habitat",
     "uses": "Uses",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "not_found":"Plant not found",
+    "back":"Back to Plants"
   },
   "evidence": {
    "evidences": "Evidences",
